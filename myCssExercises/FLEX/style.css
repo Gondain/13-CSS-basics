@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    background-color: #2D4480;
+}
+
+.cadre-blanc {
+    position: relative;
+    background-color: white;
+    width: 288px;
+    height: 469px;
+    border-radius: 27px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+a {
+    background-color: #FFBC0F;
+    text-decoration: none;
+    font-family: "Noto Sans";
+    font-weight: 600;
+    font-size: 16px;
+    color: #253868;
+}
+
+.boutton {
+    background-color: #FFBC0F;
+    width: 181px;
+    height: 68px;
+    text-align: center;
+    border-radius: 27px;
+    position: absolute;
+    top: 435px;
+    left: 55px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+body {
+    height: 800px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
