@@ -11,28 +11,30 @@
     width: 288px;
     height: 469px;
     border-radius: 27px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 
-a {
-    background-color: #FFBC0F;
+.boutton {
     text-decoration: none;
     font-family: "Noto Sans";
     font-weight: 600;
     font-size: 16px;
     color: #253868;
-}
-
-.boutton {
     background-color: #FFBC0F;
     width: 181px;
     height: 68px;
-    text-align: center;
     border-radius: 27px;
     position: absolute;
     top: 435px;
     left: 55px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+        align-items: center;
+        justify-content: center;
 }
 
 body {
@@ -40,4 +42,67 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
+}
+.green_circle {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.red_cross {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+}
+
+.FEATURE {
+    background-color: white;
+    font-family: "Noto Sans";
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.title {
+    background-color: white;
+    font-family: "Noto Sans";
+    font-size: 36px;
+    font-weight: 200;
+    position: absolute;
+    bottom: 390px;
+}
+
+.FREE {
+    background-color: white;
+    font-family: "Noto Sans";
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.forever {
+    background-color: white;
+    font-family: "Allan";
+    font-size: 36px;
+    font-weight: 400;
+    color: #2D4480;
+    position: absolute;
+    top: 355px;
+    left: 135px
+}
+
+.group {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px
+}
+
+.border {
+    background-color: white;
+    width: 188px;
+    height: 1px;
+    border-bottom: 1px black solid;
+}
+
+.all_features {
+    background-color: white;
 }
